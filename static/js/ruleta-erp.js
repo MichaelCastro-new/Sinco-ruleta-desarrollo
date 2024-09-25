@@ -2,7 +2,8 @@ let ruleta = document.getElementById("btn-rule-ERP");
 
 ruleta.addEventListener("click", () => {
   let rand = Math.random() * 360;
-  let girosExtras = Math.floor(Math.random() * 6) + 5; // Generar giros adicionales (5-10 vueltas)
+  let girosExtras = Math.floor(Math.random() * 6) + 10;
+ // Generar giros adicionales (5-10 vueltas)
   let rotacionFinal = rand + girosExtras * 360; // Añadir giros completos
   calcular(rotacionFinal);
   var sonido = document.querySelector("#audio");

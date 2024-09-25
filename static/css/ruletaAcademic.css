@@ -129,11 +129,19 @@ input[type="submit"]:hover {
   z-index: 400;
 }
 
-
+.terminos-condiciones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
 .terminos-condiciones p{
+  width: 60%;
   margin: 15px;
   color: #fff;
-  font-size: 105x;
+  font-size: 15px;
   padding: 20px;
 }
 
